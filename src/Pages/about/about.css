@@ -1,0 +1,21 @@
+.about{
+    height: 100%;
+    width: 100%;
+    background-color: #fffaf3;
+}
+
+.img-fluid{
+    margin-top: 30px;
+    min-height: 350px;
+}
+.container-about{
+    overflow-x: hidden;
+    margin: auto;
+    padding: 30px;
+    
+}
+.about-text{
+    margin-top: 25px;
+    min-height: 350px;
+
+}

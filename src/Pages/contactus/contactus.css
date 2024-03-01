@@ -1,0 +1,116 @@
+.contact{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact-title h1 {
+    text-align: center;
+    color: #ffb03b;
+}
+.contact-title p {
+   
+   
+    text-align: center;
+    margin-left: 30px;
+}
+.contact{
+    max-width: 100%;
+}
+.container-bottom{
+    border: 2px;
+    border-radius: 1px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.3);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.info-wrap{
+  margin-top: 30px;
+}
+.contact-title{
+    margin-top: 20px;
+}
+.contact-title p{
+    margin-top: 10px;
+}
+.map{
+    background-size: cover;
+}
+.text-center button {
+    /* margin-right: 5px;
+    color: black;
+    background-color: #ffb03b;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 9px;
+    text-decoration: none;
+    margin-left: 20px;
+    opacity: 1; */
+    background: #ffb03b;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-top: 2%;
+}
+
+.form-group{
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+.info-wrap{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* .info{
+    gap: 10px;
+} */
+/* .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+} */
+
+/* .icon-caption h5{
+     margin-bottom: 5px;
+}
+.icon-caption p{
+    margin-top: 5px;
+} */
+.iconr:hover{
+    background-color: #ffb03b;
+    size: 100px;
+    transform: scale(1.5); 
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.p1{
+    margin-bottom: 0px;
+}
+.p2{
+    margin-bottom: 0px;
+}
+.icon{
+    width: 30%;
+    /* height: 20px; */
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.icon-content{
+    width: 70%;
+}
+.iconr{
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}

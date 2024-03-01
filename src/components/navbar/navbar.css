@@ -1,0 +1,43 @@
+.navbar{
+    background-color: black;
+    opacity: 0.5;
+    
+}
+.navbar-nav{
+    margin-left: 250px;
+    gap: 15px;
+}
+.book-a-table-btn {
+    margin-right: 5px;
+    color: black;
+    background-color: #ffb03b;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 9px;
+    text-decoration: none;
+    margin-left: 20px;
+    opacity: 1;
+    
+}
+.navbar-brand{
+    color: #ffffff;
+    margin-left: 30px;
+    
+}
+.nav-link{
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+.nav-link:hover{
+    background-color: #ffb03b;
+    border-radius: 20px;
+}
+.navbar-brand:hover{
+    background-color: #ffb03b;
+    border-radius: 20px;
+}

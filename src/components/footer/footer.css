@@ -1,0 +1,30 @@
+.footer{
+    background-color: #35322d;
+    
+}
+.del {
+    color: #ffb03b;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.del-line{
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+.social {
+    text-align: center;
+    gap: 10px;
+}
+.social a{
+    color: aliceblue;
+    
+    
+}
