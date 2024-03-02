@@ -7,6 +7,8 @@ import Whyus from './Pages/whyus/Whyus'
 import Events from './Pages/events/Events'
 import Contactus from "./Pages/contactus/Contactus"
 import Footer from "./components/footer/Footer"
+import Navbar from "./components/navbar/Navbar"
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
@@ -16,12 +18,32 @@ function App() {
   return (
     <>
     
+     {/* <Router>
+     <Navbar />
+      
+      <Routes>
+        <Route exact path='/' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/contact-us' element={<Contactus/>} />
+        <Route path='/whyus' element={<Whyus/>} />
+        <Route path='/events' element={<Events/>} />
+        </Routes>
+
+      
+    </Router>
+    */}
+     
      <Home/>
      <About/>
+     
      <Whyus/>
      <Events/>
      <Contactus/>
      <Footer/>
+     
+     
+     
+     
 
      
      

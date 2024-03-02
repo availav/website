@@ -10,30 +10,32 @@ function footer() {
     <section className="footer">
       <div className="container">
         <p className="del">Delicious</p>
-        <p className="del-line" >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <p className="del-line">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+          dolor sit.
+        </p>
+        <div className="social">
+          <a href="#" className="twitter">
+            <LuTwitter />
+          </a>
+          <a href="#">
+            <RiFacebookCircleLine />
+          </a>
+          <a href="#">
+            <AiOutlineInstagram />
+          </a>
+          <a href="#">
+            <IoLogoGithub />
+          </a>
+          <a href="#">
+            <IoLogoLinkedin />
+          </a>
+        </div>
+        <p className="copy">
+          © Copyright <strong>Delicious</strong> . All Rights Reserved <br />
+          Designed by BootstrapMade
         </p>
       </div>
-      <div className="social">
-        <a href="#" className="twitter">
-          <LuTwitter />
-        </a>
-        <a href="#">
-          <RiFacebookCircleLine />
-        </a>
-        <a href="#">
-          <AiOutlineInstagram />
-        </a>
-        <a href="#">
-          <IoLogoGithub />
-        </a>
-        <a href="#">
-          <IoLogoLinkedin />
-        </a>
-      </div>
-      <p className="copy">
-        © Copyright Delicious. All Rights Reserved <br/>Designed by BootstrapMade
-      </p>
     </section>
   );
 }

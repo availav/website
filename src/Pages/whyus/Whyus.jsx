@@ -11,7 +11,7 @@ function Whyus() {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa perspiciatis voluptatem, <br/>mollitia repellat exercitationem maxime quod, aperiam aliquid sit dolor.</p>
         </div>
         <div className="container-box">
-        <div className="row   mt-4 gap-4 mr-sm-5">
+        <div className="row   mt-4 gap-4 mr-sm-5 boxes">
           <div className="col-lg-4 
            col-md-12 col-sm-12 mt-4 mt-lg-0  box1">
             <div className="box">

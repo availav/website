@@ -7,6 +7,9 @@
     margin-left: 250px;
     gap: 15px;
 }
+.book-a-table-btn:hover{
+    color: #ffffff;
+}
 .book-a-table-btn {
     margin-right: 5px;
     color: black;
