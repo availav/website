@@ -23,6 +23,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 4%;
+    min-height: 450px;
 }
 
 .info-wrap{
@@ -46,6 +47,7 @@
     transition: 0.4s;
     border-radius: 50px;
     margin-top: 2%;
+    font-family: "Poppins", sans-serif;
 }
 
 .form-group{
@@ -107,4 +109,7 @@
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
     margin-left: 50px;
+}
+.col-lg-3 .info{
+  margin-top: 2%;
 }

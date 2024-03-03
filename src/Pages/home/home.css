@@ -1,15 +1,27 @@
 .hero{
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow-y: hidden ;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;   
 }
-
-
-.carousel-caption{
-    padding-bottom: 300px;
+.krishna{
+  width: 100%;
+  height: 100%;
+}
+.carousel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.carousel-content{
+  text-align: center;
+  margin-top: 60%;
 }
 
 .carousel-caption h5 span {
@@ -17,11 +29,11 @@
      font-size: 48px;
      font-weight: 900;
 }
-.carousel-caption h5{
-
+.carousel-caption h5{  
+     color: #fff;
+    margin-bottom: 30px;
     font-size: 48px;
-     font-weight: 900;
-     color: aliceblue;
+    font-weight: 700;
      
      animation: fadeInUp  1s ease forwards;
       opacity: 0;
@@ -40,12 +52,19 @@
     }
   }
 .carousel-caption p{
-    color: aliceblue;
+    
     font-size: 15px;
-    width: 600px;
+    /* width: 600px; */
     margin: auto;
     font-family: "Poppins, sans-serif";
     line-height: normal;
+
+    width: 80%;
+    
+    margin: 0 auto 30px auto;
+    color: #fff;
+
+
     animation: fadeInDown 2s ease forwards;
       opacity: 0;
       transform: translateY(-20px);
@@ -68,7 +87,26 @@
 .para{
   color: #848484;
 }
-/* .carousel-item{
+.carousel-item{
   width: 100%;
   height: 100%;
-} */
+}
+
+@media (max-width: 990px) {
+  .carousel-caption {
+    display: block !important;
+  }
+
+  .carousel-caption h5,
+  .carousel-caption p {
+    
+    
+    display: block !important;
+  }
+}
+.krishna1{
+  height: 100vh;
+  
+  
+    overflow-x: hidden;
+}

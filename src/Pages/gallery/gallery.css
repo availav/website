@@ -1,0 +1,44 @@
+
+ .gallery-item {
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    transition: all ease-in-out 0.4s;
+}
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+.gallery-title{
+    margin-top: 4%;
+    
+    text-align: center;
+}
+.gallery-title h1{
+    font-weight: bold;
+}
+.gallery-title span{
+    color: #ffb03b;
+}
+.gallery-title p{
+    margin-top: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+

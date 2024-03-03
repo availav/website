@@ -1,0 +1,45 @@
+
+.text-center button {
+
+    background: #ffb03b;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-top: 2%;
+    font-family: "Poppins", sans-serif;
+}
+.form-group{
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+.container-bookatable{
+    margin-top: 5%;
+}
+.container-bookatable p{
+    margin-top: 2%;
+}
+.booktable-title span {
+    
+    color: #ffb03b;
+}
+.booktable-title h1{
+    text-align: center;
+    font-weight: bold;
+}
+.booktable-title p{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.container-booktable{
+    border: 2px;
+    border-radius: 1px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.3);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    min-height: 400px;
+}

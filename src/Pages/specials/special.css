@@ -1,0 +1,55 @@
+.special-title{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 2%;
+}
+.special-title span{
+    color: #ffb03b;
+}
+
+.special-title p{
+    font-family: "Poppins", sans-serif;
+    margin: 15px auto 0 auto;
+    font-weight: 300;
+    color: #444444;
+}
+.spcl{
+    background-color: white ;
+    color:  #433f39;
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+    
+}
+.spcl:hover{
+    background-color: #ffb03b;;
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color:  white;}
+
+.col-lg-9 h2   {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #433f39;
+    }
+
+
+.col-lg-9 p    {
+        color: #777777;
+        font-family: "Poppins", sans-serif;
+    }
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    min-height: auto;
+}   
+/* .nav-pills:hover{
+    color: black;
+    background-color: #ffb03b;
+} */

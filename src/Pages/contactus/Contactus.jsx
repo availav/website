@@ -29,7 +29,7 @@ function contactus() {
         </div>
         <div className="container-bottom">
           <div className="info-wrap">
-            <div className="row">
+            <div className="row iconrow">
               <div className="col-lg-3 col-md-6 info
               d-flex">
                
@@ -45,13 +45,7 @@ function contactus() {
                   </p>
                   
                 </div>
-              {/* <h4>
-              <CiLocationOn  className="icon" />Location:
-                </h4>
-                <p>
-                    Lorem ipsum dolor
-                    <br /> sit, amet .
-                  </p> */}
+              
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12 info mt-4 mt-lg-0 d-flex">
               <div className="icon">

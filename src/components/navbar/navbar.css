@@ -1,7 +1,6 @@
 .navbar{
     background-color: black;
-    opacity: 0.5;
-    
+    opacity: 0.5;  
 }
 .navbar-nav{
     margin-left: 250px;
@@ -44,3 +43,62 @@
     background-color: #ffb03b;
     border-radius: 20px;
 }
+
+.navbar {
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-toggler {
+    border: 2px solid red;
+    background: transparent;
+    padding: 0px 10px 12px 0px; 
+    padding-right: 16px;
+
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    color: white;
+    height: 21px;
+    width: 30px;
+    
+   
+  }
+  .tocky{
+    height: 31px;
+    width: 50px;
+    margin-bottom: 7%;
+  }
+  @media (max-width: 990px) {
+    .navbar-toggler {
+        margin-left: auto;
+      display: inline-block; 
+       
+    }
+    
+
+  }
+  
+  .book-a-table-btn {
+    color: black;
+    background-color: #ffb03b;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 9px;
+    text-decoration: none;
+    opacity: 1;
+    /* margin-left: 80%; */
+    
+   
+  }
+  

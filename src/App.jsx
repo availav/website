@@ -8,6 +8,11 @@ import Events from './Pages/events/Events'
 import Contactus from "./Pages/contactus/Contactus"
 import Footer from "./components/footer/Footer"
 import Navbar from "./components/navbar/Navbar"
+import Special from './Pages/specials/Special'
+import Bookatable from "./Pages/bookatable/Bookatable"
+import Gallery from './Pages/gallery/Gallery'
+
+// import Specials from './Pages/specials/Specials'
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -38,6 +43,9 @@ function App() {
      
      <Whyus/>
      <Events/>
+     <Special/>
+     <Gallery/>
+     <Bookatable/>
      <Contactus/>
      <Footer/>
      

@@ -44,7 +44,7 @@ function Events() {
                   <div className="col-lg-6 col-sm-12">
                     <img
                       src={img}
-                      className="d-block w-100 image-fluid-events"
+                      className="d-block w-100 event-img img-fluid"
                       alt="..."
                     />
                   </div>
@@ -60,7 +60,10 @@ function Events() {
                       <li>
                         <p>cbvhjafl jsdbuki bjskdf</p>
                       </li>
-                      <li>sncaj khadi hqifo klajf jhc okkopio dfdg fghhj</li>
+                      <li>
+                        <p>cbvhjafl jsdbuki bjskdf</p>
+                      </li>
+                      
                       <li>
                         <p>cbvhjafl jsdbuki bjskdf</p>
                       </li>
@@ -81,7 +84,7 @@ function Events() {
                   <div className="col-lg-6 col-sm-12 ">
                     <img
                       src={img}
-                      className="d-block w-100 image-fluid-events "
+                      className="d-block w-100 img-fluid  event-img "
                       alt="..."
                     />
                   </div>
@@ -97,7 +100,10 @@ function Events() {
                       <li>
                         <p>cbvhjafl jsdbuki bjskdf</p>
                       </li>
-                      <li>sncaj khadi hqifo klajf jhc okkopio dfdg fghhj</li>
+                      
+                      <li>
+                        <p>cbvhjafl jsdbuki bjskdf</p>
+                      </li>
                       <li>
                         <p>cbvhjafl jsdbuki bjskdf</p>
                       </li>
@@ -115,8 +121,8 @@ function Events() {
               </div>
               <div className="carousel-item">
                 <div className="row">
-                  <div className="col-lg-6 col-sm-12 image-fluid-events ">
-                    <img src={img} className="d-block w-100 " alt="..." />
+                  <div className="col-lg-6 col-sm-12  ">
+                    <img src={img} className="d-block w-100  event-img img-fluid" alt="..." />
                   </div>
                   <div className="col-lg-6  col-sm-12 content">
                     <h1>Birthday Parties</h1>
@@ -130,7 +136,10 @@ function Events() {
                       <li>
                         <p>cbvhjafl jsdbuki bjskdf</p>
                       </li>
-                      <li>sncaj khadi hqifo klajf jhc okkopio dfdg fghhj</li>
+                      
+                      <li>
+                        <p>cbvhjafl jsdbuki bjskdf</p>
+                      </li>
                       <li>
                         <p>cbvhjafl jsdbuki bjskdf</p>
                       </li>
