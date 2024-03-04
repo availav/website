@@ -5,7 +5,7 @@ function Events() {
   return (
     <section className="events">
       <div className="container">
-        <div className="section-title">
+        <div className="event-title">
           <h1>
             Organize Your <span>Events </span>in our Restaurant
           </h1>

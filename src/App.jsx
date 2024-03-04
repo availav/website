@@ -13,7 +13,7 @@ import Bookatable from "./Pages/bookatable/Bookatable"
 import Gallery from './Pages/gallery/Gallery'
 
 // import Specials from './Pages/specials/Specials'
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 
@@ -22,6 +22,18 @@ function App() {
 
   return (
     <>
+    {/* <Router>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/events" component={Events} />
+          <Route path="/whyus" component={Whyus} />
+          <Route path="/contact-us" component={Contactus} />
+        </Switch>
+      </div>
+    </Router> */}
     
      {/* <Router>
      <Navbar />
@@ -35,8 +47,8 @@ function App() {
         </Routes>
 
       
-    </Router>
-    */}
+    </Router> */}
+   
      
      <Home/>
      <About/>

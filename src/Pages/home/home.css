@@ -21,7 +21,8 @@
 }
 .carousel-content{
   text-align: center;
-  margin-top: 60%;
+  margin-top: 20%;
+  /* margin-bottom: 6%; */
 }
 
 .carousel-caption h5 span {
@@ -31,7 +32,7 @@
 }
 .carousel-caption h5{  
      color: #fff;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     font-size: 48px;
     font-weight: 700;
      
@@ -61,7 +62,7 @@
 
     width: 80%;
     
-    margin: 0 auto 30px auto;
+    /* margin: 0 auto 30px auto; */
     color: #fff;
 
 
@@ -103,10 +104,14 @@
     
     display: block !important;
   }
+  .carousel-content{
+    text-align: center;
+    margin-top: 60%;
+    
+  }
+
 }
 .krishna1{
   height: 100vh;
-  
-  
     overflow-x: hidden;
 }
